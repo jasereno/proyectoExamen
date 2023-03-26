@@ -1,0 +1,9 @@
+.container{
+    padding: 10px;
+    padding-left: 0%;
+    margin: 10px;
+    margin-left: 300px;
+    display: flex-end;
+    justify-content: center;
+}
+
