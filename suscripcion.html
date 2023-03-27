@@ -10,6 +10,13 @@
 </head>
 
 <body>
+  <style>
+    body{
+      background-color: rgba(239, 235, 235, 0.814);
+      color: black;
+    }
+  </style>
+
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">Jardineria</a>
@@ -51,6 +58,41 @@
           </div>
         </div>
       </nav>
+
+
+      
+
+      <div class="container pb-2">
+        <h3>Hazte socio!</h3>
+        
+        <h6>Registrate para realizar la donacion</h6>
+    </div>
+    
+
+      <div class="container">
+        <form action="#">
+          <div class="form-group">
+
+
+            <label>Ingrese nombre</label>
+            <input type="text" class="form-control" placeholder="Ej:juan perez" id="txtNombre"required>
+            <br>
+            <label>Ingrese su rut</label>
+            <input type="text" class="form-control" placeholder="Ej:12312333-2" id="txtRut" required>
+            <br>  
+            <label>Ingrese correo</label>
+            <input type="email" class="form-control" placeholder="Ej:correo@gmail.com" id="txtCorreo"required>
+            <br>  
+            <label>Ingrese contraseña</label>
+            <input type="password" class="form-control" placeholder="*********" id="txtContraseña"required>
+            <br>  
+            <label>Ingrese monto a donar</label>
+            <input type="number" class="form-control" placeholder="Ej:1000000" id="numberDonacion"required>
+          </div>
+          <button type="submit" class="btn btn-primary mt-5">Enviar</button>
+        </form>
+      </div>
+            
 
 
 
