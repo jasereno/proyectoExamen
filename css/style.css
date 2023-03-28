@@ -7,3 +7,14 @@
     justify-content: center;
 }
 
+
+.containerCarrito{
+    display: flex;
+    justify-content: flex-end;
+    align-items: end;
+}
+.containerCarrito h5{
+   padding: 4px;
+   margin: 8px;
+}
+
