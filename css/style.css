@@ -3,7 +3,6 @@
     padding-left: 0%;
     margin: 10px;
     margin-left: 300px;
-    display: flex-end;
     justify-content: center;
 }
 
@@ -17,4 +16,34 @@
    padding: 4px;
    margin: 8px;
 }
+
+.carousel-item{
+    height: 600px;
+    align-items: center;
+   
+}
+
+.containerCarousel{
+    justify-content: center;
+    
+}
+
+.rounded{
+   width: 80%;
+   padding-right: 100px;
+}
+
+.containerContacto h6:hover{
+    color: rgb(196, 194, 194);
+}
+
+.cards-wrapper {
+    display: flex;
+    justify-content: center;
+  }
+  .card img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+
 
