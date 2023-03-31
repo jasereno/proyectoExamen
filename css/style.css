@@ -46,4 +46,11 @@
     max-height: 100%;
   }
 
+ .container-fluid-2{
+    padding-left: 16%;
+    align-items: center;
+}
 
+.containerSocio{
+    padding-left: 16%;
+}
