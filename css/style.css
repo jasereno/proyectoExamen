@@ -49,6 +49,7 @@
 }
 
 .containerSocio{
+<<<<<<< HEAD
     padding-left: 35%;
 }
 
@@ -61,3 +62,41 @@
 .cards-wrapper{
     padding-top: 45px;
 }
+=======
+    padding-left: 16%;
+}
+
+.tableCarrito {
+    margin-bottom: 0;
+  }
+
+
+  .container-fluid-3 {
+    margin-top: 50px;
+    padding-left: 27%;
+}
+.infoPedidos {
+    margin-top: 30px;
+    border: 1px solid #ddd;
+    padding: 20px;
+    background-color: #fff;
+}
+.infoPedidos h4 {
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+.infoPedidos ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.infoPedidos li {
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.infoPedidos li p {
+    margin: 0;
+}
+  
+>>>>>>> e0400b5a27d185012ef5365e3b337886f88820e6
