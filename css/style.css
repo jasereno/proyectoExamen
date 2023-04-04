@@ -114,6 +114,7 @@
     .cards-wrapper2{
         background-color: white;
         padding-top: 20px;
+        padding-bottom: 20px;
     }
     
     .containerSeguimiento{
@@ -121,3 +122,20 @@
         padding-top: 90px;
         padding-bottom: 132px;
     }
+
+    .fondoCarrito{
+        background-color: white;
+        padding-top: 90px;
+        padding-bottom: 294px;
+    }
+
+    .container-fluid-4{
+        background-color: green;
+    }
+
+
+    .cardJardin{
+        padding-top: 200px;
+    }
+
+   
