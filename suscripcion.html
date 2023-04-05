@@ -71,6 +71,8 @@
           </div>
         </div>
       </nav>
+      
+
 
 
       
@@ -104,9 +106,38 @@
             <input type="number" class="form-control" placeholder="Ej:1000000" id="numberDonacion"required>
           </div>
           </div>
-          <button type="submit" class="btn btn-primary mt-5">Enviar</button>
+
+          <div class="container mb-5">
+            <!-- Button trigger modal -->
+            <button  id="buttonModal" type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#staticBackdrop" >
+              Enviar
+            </button>
+            <!-- Modal -->
+            <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+              aria-labelledby="staticBackdropLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="staticBackdropLabel">¡Gracias por unirte a nuestra familia!</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                     <p>Al presionar aceptar confirmaras la donacion realizada y seras registrado como muebro de nuestra comunidad jardinera,Recibiras noticias de descuentos y ofertas especiales para miembros!.</p>
+                    <p>Recuerda llenar todos los campos previamente.</p>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" id="btnCerrar" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    <button type="submit" class="btn btn-success">Aceptar</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
         </form>
       </div>
+      
+      
 
       <div class="container-fluid">
         <div class="row p-5 bg-secundary " >
