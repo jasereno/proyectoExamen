@@ -90,20 +90,25 @@
           <div class="form-group">
 
             <div class="col-lg-5">
-            <label>Ingrese nombre</label>
-            <input type="text" class="form-control" placeholder="Ej:juan perez" id="txtNombre"required>
+            <label for="txtNombre">Ingrese nombre</label>
+            <input onblur="validarFormulario()" type="text" class="form-control" placeholder="Ej:juan perez" id="txtNombre">
+            <small id="valNombre">Debe ingresar su nombre</small>
             <br>
-            <label>Ingrese su rut</label>
-            <input type="text" class="form-control" placeholder="Ej:12312333-2" id="txtRut" required>
+            <label for="txtRut">Ingrese su rut</label>
+            <input onblur="validarFormulario()" type="text" class="form-control" placeholder="Ej:12312333-2" id="txtRut">
+            <small id="valRut">Debe ingresar rut</small>
             <br>  
-            <label>Ingrese correo</label>
-            <input type="email" class="form-control" placeholder="Ej:correo@gmail.com" id="txtCorreo"required>
+            <label for="txtCorreo">Ingrese correo</label>
+            <input onblur="validarFormulario()" type="email" class="form-control" placeholder="Ej:correo@gmail.com" id="txtCorreo">
+            <small id="valCorreo">Debe ingresar correo</small>
             <br>  
-            <label>Ingrese contraseña</label>
-            <input type="password" class="form-control" placeholder="*********" id="txtContraseña"required>
-            <br>  
-            <label>Ingrese monto a donar</label>
-            <input type="number" value="1" min="1" class="form-control" placeholder="Ej:1000000" id="numberDonacion"required>
+            <label for="txtContraseña">Ingrese contraseña</label>
+            <input onblur="validarFormulario()" type="password" class="form-control" placeholder="*********" id="txtContraseña">
+            <small id="valPassword">Debe ingresar una contraseña</small>
+        
+            <label for="numberDonacion">Ingrese monto a donar</label>
+            <input onblur="validarFormulario()" type="number" value="1" min="1" class="form-control" placeholder="Ej:1000000" id="numberDonacion">
+            <small id="valDonacion">Debe ingresar donacion</small>
           </div>
           </div>
 
@@ -126,8 +131,7 @@
                     <p>Recuerda llenar todos los campos previamente.</p>
                   </div>
                   <div class="modal-footer">
-                    <button type="button" id="btnCerrar" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-                    <button type="submit" class="btn btn-success">Aceptar</button>
+                    <button type="button" id="btnCerrar" class="btn btn-success" data-bs-dismiss="modal">Aceptar</button>
                   </div>
                 </div>
               </div>
@@ -203,6 +207,7 @@
 
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.min.js" integrity="sha384-heAjqF+bCxXpCWLa6Zhcp4fu20XoNIA98ecBC1YkdXhszjoejr5y9Q77hIrv8R9i" crossorigin="anonymous"></script>
+<script src="js/form.js"></script>
 </body>
 
 </html>
