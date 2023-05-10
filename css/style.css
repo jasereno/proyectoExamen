@@ -20,7 +20,6 @@
     .carousel-item{
         height: 600px;
         align-items: center;
-    
     }
     
     .containerCarousel{
@@ -53,13 +52,13 @@
     .container-fluid-2{
         padding-left: 35%;
         align-items: center;
-        background-color: white;
+        /*background-color: white;*/
         padding-bottom: 50px;
     }
     
     .containerSocio{
         padding-left: 35%;
-        background-color: white;
+        /*background-color: white;*/
     }
     
     
@@ -69,7 +68,7 @@
     }
     
     .cards-wrapper{
-        padding-top: 10px;
+        padding-top: 10px
     }
     
     .tableCarrito {
@@ -85,7 +84,6 @@
         margin-top: 30px;
         border: 1px solid #ddd;
         padding: 20px;
-        background-color: #fff;
     }
     .infoPedidos h4 {
         margin-top: 0;
@@ -98,7 +96,6 @@
     }
     .infoPedidos li {
         padding: 10px 0;
-        border-bottom: 1px solid #eee;
     }
     
     .infoPedidos li p {
@@ -112,13 +109,13 @@
     }
     
     .cards-wrapper2{
-        background-color: white;
+        /*background-color: white;*/
         padding-top: 20px;
         padding-bottom: 20px;
     }
     
     .containerSeguimiento{
-        background-color: white;
+        /*background-color: white;*/
         padding-top: 90px;
         padding-bottom: 132px;
     }
@@ -144,6 +141,45 @@
     }
 
 
+/*Dark mode/ light mode*/
 
-/*estilo para reloj digital*/
+input[type="checkBox"]{
+    position: relative;
+    width: 40px;
+    height: 20px;
+    background-color: #434343;
+    appearance: none;
+    outline: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+
+input[type="checkBox"]:checked{
+    background-color: #04ac2e;
+}
+
+input[type="checkBox"]::before{
+    content: '';
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    background-color: #f2f2f2;
+    border-radius: 50%;
+    top: 2px;
+    left: 2px;
+    transition: 0.7s ease;
+}
+
+input[type="checkBox"]:checked::before{
+    transform: translate(20px);
+}
+
+.dark-mode{
+    background-color: #252525;
+    color: #828181;
+}
+
+
+
 
