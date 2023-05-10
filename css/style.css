@@ -121,7 +121,6 @@
     }
 
     .fondoCarrito{
-        background-color: white;
         padding-top: 90px;
         padding-bottom: 294px;
     }
@@ -176,8 +175,8 @@ input[type="checkBox"]:checked::before{
 }
 
 .dark-mode{
-    background-color: #252525;
-    color: #828181;
+    background-color: #464444;
+    color: #ffffff;
 }
 
 
