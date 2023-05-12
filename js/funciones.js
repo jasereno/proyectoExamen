@@ -1,13 +1,50 @@
-function displayTime(){
-    var dateTime = new Date();
-    var hrs = dateTime.getHours();
-    var min = dateTime.getMinutes();
-    var sec = dateTime.getSeconds();
+function cargarReloj() {
 
 
-    document.getElementById('hours').innerHTML = hrs;
-    document.getElementById('minutes').innerHTML = min;
-    document.getElementById('seconds').innerHTML = sec;
+    var fechahora = new Date();
+    var hora = fechahora.getHours();
+    var minuto = fechahora.getMinutes();
+    var segundo = fechahora.getSeconds();
+
+
+    var meridiano = "AM";
+
+
+
+    if (hora == 0) {
+
+        hora = 12;
+
+    }
+
+
+    if (hora > 12) {
+
+        hora = hora - 12;
+
+
+        meridiano = "PM";
+
+    }
+
+
+    hora = (hora < 10) ? "0" + hora : hora;
+    minuto = (minuto < 10) ? "0" + minuto : minuto;
+    segundo = (segundo < 10) ? "0" + segundo : segundo;
+
+
+    var tiempo = hora + ":" + minuto + ":" + segundo + " " + meridiano;
+    document.getElementById("relojnumerico").innerText = tiempo;
+    document.getElementById("relojnumerico").textContent = tiempo;
+
+
+    setTimeout(cargarReloj, 500);
 
 }
-setInterval(displayTime, 1000);
+
+
+
+
+setInterval(() => {
+    cargarReloj();
+}, 1000);
