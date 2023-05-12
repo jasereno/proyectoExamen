@@ -24,10 +24,10 @@ window.addEventListener("load", () => {
 
             /*ID API */
 
-            const appid = "9a79fcf82658278c51469ec8131bf03b"
+            const appid =`9a79fcf82658278c51469ec8131bf03b`
 
 
-            const url_base = `https://api.openweathermap.org/data/2.5/weather?lat={lat}&lon={lon}&appid={appid}`
+            const url_base = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=${appid}`
 
 
             fetch(url_base)
