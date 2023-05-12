@@ -73,9 +73,6 @@
     padding-top: 10px
 }
 
-.tableCarrito {
-    margin-bottom: 0;
-}
 
 
 .container-fluid-3 {
@@ -126,10 +123,7 @@
     padding-bottom: 132px;
 }
 
-.fondoCarrito {
-    padding-top: 90px;
-    padding-bottom: 294px;
-}
+
 
 .container-fluid-4 {
     background-color: green;
@@ -183,8 +177,38 @@ input[type="checkBox"]:checked::before {
 .dark-mode {
     background-color: #464444fa;
     color: #7e7e7e;
+    
+}
+.dark-mode h5 {
+    color: white;
+    
 }
 
+.dark-mode p {
+    color: white;
+    
+}
+.dark-mode h3 {
+    color: white;
+    
+}
+.dark-mode h6 {
+    color: white;
+    
+}
+.dark-mode label {
+    color: white;
+    
+}
+.dark-mode h4 {
+    color: white;
+    
+}
+
+.dark-mode span{
+    color: white;
+    
+}
 
 .reloj {
     margin-top: 9px;
@@ -194,4 +218,33 @@ input[type="checkBox"]:checked::before {
     text-align: center;
     border: 1px solid #09210a;
     border-radius: 20px;
+}
+
+.containerCarro{
+    min-height: 80vh;
+    max-width: 1000px;
+    margin:0 auto;
+    width: 100%;
+}
+
+.table__productos{
+    display: flex;
+}
+
+
+.table__productos > img{
+    width: 9rem;
+    object-fit: contain;
+    border-radius: 6px;
+    margin-right: 20px;
+}
+
+.table__cantidad > input{
+    width: 40px;
+    border: none;
+    outline:0;
+    font-size: 16px;
+    font-weight: 700;
+    margin-right: 30px;
+    margin-bottom: 20px;
 }
