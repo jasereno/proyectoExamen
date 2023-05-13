@@ -175,6 +175,7 @@ input[type="checkBox"]:checked::before {
 }
 
 .dark-mode {
+
     background-color: #464444fa;
     color: #7e7e7e;
 
@@ -215,6 +216,7 @@ input[type="checkBox"]:checked::before {
 
 }
 
+
 .reloj {
     margin-top: 9px;
     color: #0d1420;
@@ -225,12 +227,12 @@ input[type="checkBox"]:checked::before {
     border-radius: 20px;
 }
 
-.containerCarro {
+.carrito {
     min-height: 80vh;
-    max-width: 1000px;
+    max-width: 1500px;
     margin: 0 auto;
     width: 100%;
-}
+} 
 
 .table__productos {
     display: flex;
