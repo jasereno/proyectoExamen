@@ -259,3 +259,7 @@ input[type="checkBox"]:checked::before {
 .remove {
     display: none;
 }
+
+.error{
+    color: red;
+}
