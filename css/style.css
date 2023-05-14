@@ -176,8 +176,12 @@ input[type="checkBox"]:checked::before {
 
 .dark-mode {
 
-    background-color: #464444fa;
+    background-color: #1a1919fa;
     color: #7e7e7e;
+
+}
+.dark-mode h1 {
+    color: white;
 
 }
 
