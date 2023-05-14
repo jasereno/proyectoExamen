@@ -263,3 +263,7 @@ input[type="checkBox"]:checked::before {
 .error{
     color: red;
 }
+
+.dark-mode tr{
+    color: white;
+}
